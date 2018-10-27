@@ -1,0 +1,46 @@
+.t{
+	font-family: Calibri;
+	color: rgb(230, 0, 153);
+	font-size: 20px;
+}
+.u{
+	font-family: Calibri;
+	color: white;
+	font-size: 18px;
+}
+.q1{
+	font-family: Calibri;
+	color: rgb(255,255, 255);
+	font-size: 20px;
+}
+.q{
+	border: solid orange;
+	border-width: 5px;
+
+}
+.w{
+	font-family: Calibri;
+	color: rgb(255,255, 255);
+	font-size: 30px;
+
+}
+.s{
+	font-family: Calibri;
+	color:red;
+	font-size: 15px;
+}
+.r{
+	border: solid red;
+	border-width: 4px;
+
+}
+.y{
+	font-family: Calibri;
+	color: blue;
+	font-size: 18px;
+}
+.i{
+	font-family: Calibri;
+	color: rgb(230, 0, 153);
+	font-size: 35px;
+}
