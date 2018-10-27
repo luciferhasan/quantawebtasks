@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 2</title>
+</head>
+<body> 
+	<fieldset class="q">
+	<link rel="stylesheet" type="text/css" href="css/styleq.css">
+	<h4 class="t">Title</h4>
+	<p style="background-color: rgb(0, 115, 153)" class="u">When you use two selector seperated by a space on a rule. you scope the rule. you scope the rule to the 
+	element that corrodpond to the selector on the right that are INSIDE the elements that 
+    corrospond to the selector on the left. Lets say we have the following HTML</p>
+	<br>
+	<ol type="1" class="q1" style="background-color: red">
+		<li>Section 1</li>
+		<li>Section 2</li>
+	</ol>
+</fieldset>
+<br>
+<br>
+<fieldset class="q">
+	<p class="w" style="background-color: rgb(230, 0, 153)">Section 1</p>
+	<br>
+	<fieldset class="r">
+		<ol class="s" type="1">
+			<li>item 1</li>
+			<li>item 2</li>
+			<fieldset class="r">
+			<ol type="1">
+				<li>sub item 1</li>
+				<li>sub item 2</li>
+				<li>sub item 3</li>
+				<li>sub item 4</li>
+				</fieldset>
+			</ol>
+
+		</ol>
+		<ol class="s" type="1" start="3">
+			<li>item 3</li>
+		</ol>
+		<p class="y">If we applied the following CSS rule then the image INSIDE the Paragraph would be set to a width of 100px but that rule will not apply to the images outside the paragraph below is the diagramof the given HTML with the two images that will styled by the above rule are indicated by the red arrow</p>
+	</fieldset>
+</fieldset>
+<br>
+<br>
+<fieldset class="q">
+	<p class="w" style="background-color: rgb(230, 0, 153)">Section 2</p>
+	<br>
+	<fieldset class="r">
+	<ol type="1" class="s">
+		<li>item 1</li>
+		<fieldset class="r">
+		<ol type="1" class="s">
+			<li>sub item 1</li>
+			<li>sub item 2</li>
+		</ol>
+		</fieldset>
+	
+		
+	</ol>
+	<ol type="1" start="2" class="s">
+			<li>item 2</li>
+	</ol>
+
+	</fieldset>
+	<p class="y">As your web pages get more complex,contextual selectors become more important because it won't scale to apply classes and IDs to each individual item contextual seleection become specially usefull when you stucture your HTML with selection tags like header,selection,article and footer. Pay attention to the style of the paragraph and list in the following example:</p>
+	<p class="y"></p>
+
+	</fieldset>
+
+	<br>
+	<br>
+	<fieldset class="q">
+		<h1 class="i"> Footer</h1>
+		
+		<ol type="1" class="q1" style="background-color: red">
+		<li>link 1</li>
+		<li>link 2</li>
+		<li>link 3</li>
+		<li>link 4</li>
+	</ol>
+	</fieldset>
+
+</body>
+</html>
